@@ -180,6 +180,7 @@ body {
     padding-bottom: 90px;
     border-radius: 8px;
     margin-top: 123px;
+    margin-bottom: 120px;
 }
 
 .customer-one {
@@ -190,4 +191,55 @@ body {
     line-height: 35px;
     letter-spacing: 0%;
     text-align: center;
+}
+
+.discount {
+    background-color: #E554730D;
+}
+
+.discount-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.discount-title-container {
+    text-align: center;
+}
+
+.discount-title-container h1 {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.discount-title-container p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 25px 0px;
+}
+
+.discount-title-container button {
+    background-color: #E55473;
+    border-radius: 8px;
+    padding: 20px 40px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+
 }
