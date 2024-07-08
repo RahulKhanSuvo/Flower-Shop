@@ -298,6 +298,7 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 
 .contact-container h1 {
@@ -346,4 +347,44 @@ form {
     width: 500px;
     border: none;
     border-radius: 9px;
+}
+
+.footer-container {
+    background-color: #111010;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: center;
+    margin-top: 120px;
+    padding: 120px 0px;
+}
+
+footer h1 {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0%;
+    text-align: left;
+    color: white;
+}
+
+footer h6 {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: center;
 }
