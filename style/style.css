@@ -283,4 +283,67 @@ span {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 120px;
+    gap: 25px;
+}
+
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 449px;
+    background-image: url(../Asset/Rectangle-9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container h1 {
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.contact-container p {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.input-two {
+    padding: 14px;
+    border: none;
+    border-radius: 9px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+
+}
+
+form {
+    display: flex;
+    gap: 4px;
+}
+
+.input-one {
+    padding: 20px 20px;
+    width: 500px;
+    border: none;
+    border-radius: 9px;
 }
